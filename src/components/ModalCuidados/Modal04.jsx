@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import {card04} from "/src/cardsModals.js";
 
-export default function Modal01() {
+export default function Modal04() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -53,9 +53,7 @@ export default function Modal01() {
             <ul className="ulModalCuidados marker:text-blue-500">
               <li className="liModalCuidados">{card04.desc01}</li>
               <li className="liModalCuidados">{card04.desc02}</li>
-              <li className="liModalCuidados">{card04.desc03}</li>
-              <li className="liModalCuidados">{card04.desc04}</li>
-              
+              <li className="liModalCuidados">{card04.desc03}</li>    
               
             </ul>
           </div>

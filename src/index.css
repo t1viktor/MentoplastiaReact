@@ -31,15 +31,6 @@
     background-color: rgba(0, 6, 58, 0.192);
 }
 
-/* .cardCuidados{
-    transition: all .3s ease-in-out;
-    cursor: pointer;
-}
-
-.cardCuidados:hover{
-    transform: translateY(-6px);
-} */
-
 .cardCuidados {
     background: linear-gradient(to right, #1F2937, #33445c);
     background-size: 200% 100%;
@@ -136,7 +127,7 @@
 }
 
 .modalCuidados{
- @apply bg-gradient-to-r from-[#1F2937] to-[#2a3a50] py-6 rounded-2xl shadow-lg w-[50%] h-[95%] overflow-y-scroll text-center justify-items-center space-y-4 max-md:w-[80%] max-lg:h-[80%];
+ @apply bg-gradient-to-r from-[#1F2937] to-[#2a3a50] py-6 rounded-2xl shadow-lg w-[50%] h-[95%] overflow-y-scroll text-center justify-items-center space-y-4 max-md:w-[80%] max-lg:h-[65%];
 }
 
 .modalCuidadoTittle{

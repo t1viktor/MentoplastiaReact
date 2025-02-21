@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 
-import {card08} from "/src/cardsModals.js";
+import {card09} from "/src/cardsModals.js";
 
-export default function Modal08() {
+export default function Modal09() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export default function Modal08() {
           <div className="modalCuidados" onClick={(e) => e.stopPropagation()}>
             <div className="border-b-[1px] w-full px-4 border-gray-700 flex flex-col-reverse items-center">
               <h2 className="modalCuidadoTittle">
-                {card08.tittle}
+                {card09.tittle}
               </h2>
               <button
                 onClick={() => setIsOpen(false)}
@@ -42,35 +42,23 @@ export default function Modal08() {
 
             <img
               className="imgModalCuidados"
-              src={card08.img}
+              src={card09.img}
               alt=""
             />
 
-            <p className="pModalCuidados">
-              <h2 className="text-white">Mentoplastia com Prótese:</h2>
-            {card08.tittle01}
-            </p>
+          
 
-            <ul className="cardAlert ulModalCuidados marker:text-blue-500">
-              
-              <li className="liModalCuidados">{card08.desc01}</li>
-              <li className="liModalCuidados">{card08.desc02}</li>
-              <li className="liModalCuidados">{card08.desc03}</li>
+            <ul className="ulModalCuidados marker:text-blue-500">
+              <li className="liModalCuidados">{card09.desc01}</li>
+              <li className="liModalCuidados">{card09.desc02}</li>
+              <li className="liModalCuidados">{card09.desc03}</li>
+              <li className="liModalCuidados">{card09.desc04}</li>
               
             </ul>
 
-            <p className="pModalCuidados">
-            <h2 className="text-white">Mentoplastia de Avanço Ósseo:</h2>
-            {card08.tittle02}
+            <p className="cardAlert">
+            {card09.h2Modal}
             </p>
-
-            <ul className="cardAlert ulModalCuidados marker:text-blue-500">
-              
-              <li className="liModalCuidados">{card08.desc01}</li>
-              <li className="liModalCuidados">{card08.desc02}</li>
-              <li className="liModalCuidados">{card08.desc03}</li>
-              
-            </ul>
           </div>
         </div>
       )}

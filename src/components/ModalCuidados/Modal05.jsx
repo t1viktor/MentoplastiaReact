@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import {card05} from "/src/cardsModals.js"; 
 
-export default function Modal03() {
+export default function Modal05() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {

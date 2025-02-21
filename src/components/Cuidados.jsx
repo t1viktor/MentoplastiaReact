@@ -6,8 +6,9 @@ import Modal05 from "./ModalCuidados/Modal05";
 import Modal06 from "./ModalCuidados/Modal06";
 import Modal07 from "./ModalCuidados/Modal07";
 import Modal08 from "./ModalCuidados/Modal08";
+import Modal09 from "./ModalCuidados/Modal09";
 
-import {card01, card02, card03, card04, card05, card06, card07, card08} from "/src/cardsModals.js";
+import {card01, card02, card03, card04, card05, card06, card07, card08, card09} from "/src/cardsModals.js";
 
 
 export default function Cuidados() {
@@ -33,7 +34,7 @@ export default function Cuidados() {
                     <ul className="ulCardCuidados">
                         <li className="liCardCuidados">{card02.li01}</li>
                         <li className="liCardCuidados">{card02.li02}</li>
-                        <li className="liCardCuidados">{card02.li03}</li>
+                        
                     </ul>
                     <Modal02 />
                 </div>
@@ -77,7 +78,8 @@ export default function Cuidados() {
                     <ul className="ulCardCuidados">
                         <li className="liCardCuidados">{card06.li01}</li>
                         <li className="liCardCuidados">{card06.li02}</li>
-                        
+                        <li className="liCardCuidados">{card06.li03}</li>
+                                             
                     </ul>
                     <Modal06 />
                 </div>
@@ -88,7 +90,7 @@ export default function Cuidados() {
                     <ul className="ulCardCuidados">
                         <li className="liCardCuidados">{card07.li01}</li>
                         <li className="liCardCuidados">{card07.li02}</li>
-                        <li className="liCardCuidados">{card07.li03}</li>
+                       
                     </ul>
                     <Modal07 />
                 </div>
@@ -99,11 +101,24 @@ export default function Cuidados() {
                     <ul className="ulCardCuidados">
                         <li className="liCardCuidados">{card08.li01}</li>
                         <li className="liCardCuidados">{card08.li02}</li>
-                        <li className="liCardCuidados">{card08.li03}</li>
-
+                    
                         
                     </ul>
                     <Modal08 />
+                </div>
+
+                <div className="cardCuidados">
+                    <img className="imgCardCuidados" src={card09.img} alt="" />
+                    <h2 className="tituloCardCuidados">{card09.tittle}</h2>
+                    <ul className="ulCardCuidados">
+                        <li className="liCardCuidados">{card09.li01}</li>
+                        <li className="liCardCuidados">{card09.li02}</li>
+                        <li className="liCardCuidados">{card09.li03}</li>
+                        <li className="liCardCuidados">{card09.li04}</li>
+                    
+                        
+                    </ul>
+                    <Modal09 />
                 </div>
 
             </div>
